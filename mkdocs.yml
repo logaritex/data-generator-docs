@@ -32,16 +32,19 @@ theme:
 repo_url: https://github.com/logaritex
 
 markdown_extensions:
+  - tables
+  - admonition
+  - attr_list
+  - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+
 
 # Page tree
 nav:

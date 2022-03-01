@@ -1,9 +1,11 @@
 # Data Generator
 
-As we develop data intensive applications we often need realistic datasets for testing them. Datasets that resemble the data as it appears in production.
-But finding enough real data or creating sufficient volume and variety manually is hard.
+As we develop data intensive applications we often need realistic datasets for testing them. Datasets that resemble the data as it appears in production. But finding enough real data or creating sufficient volume and variety manually is hard. 
 
 The `DataGenerator` library uses [Apache Avro](https://avro.apache.org/docs/current/) Schemas to generate random and yet realistic datasets, supporting `JSON`, `Avro` and `YAML`  output formats. 
+
+![anomaly detection logo](assets/images/flow-diagram2.svg){ align=left, width="600"} 
+
 
 The Avro Schemas can be annotated with [Faker](https://www.datafaker.net) and [SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions to adapt the generated content for a particular use-case or data model.
 
