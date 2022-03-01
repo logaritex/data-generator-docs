@@ -1,6 +1,6 @@
 # Usage
 
-Let’s assume that our data application needs to proces datasets like this:
+Let’s assume that our data application needs to process datasets like this:
 
 ```json title="user.json"
 {
@@ -125,7 +125,7 @@ We can use the `doc` attributes, a common place for Schema documentation, to add
 Metadata such as [Data Faker](https://www.datafaker.net/) and/or [SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions, used to fine tune the generated Datasets for a particular data model or use case.
 
 The extensive list of Faker [Providers](https://www.datafaker.net/providers/) helps to model data for many different domains and different use cases. 
-The SpEL provides additional capability for adding conditions, aggregating expressions or even calling Java code directly, when gnerating field values.
+The SpEL provides additional capability for adding conditions, aggregating expressions or even calling Java code directly, when generating field values.
 
 With the annotated schema we can generate realistic user data:
 
@@ -188,7 +188,7 @@ fields:
 ```
 
 1. Reusing the computed `#name` as a `fullName` field value.
-2. Compute the email domain with faker `internet.emailAddress` exression. Derive the email name form the `#name` variable.
+2. Compute the email domain with faker `internet.emailAddress` expression. Derive the email name form the `#name` variable.
 
 Now the same name variable (computed once at the record level) is used directly as `fullName` and also as a part of the expression computing the `email` address.  
 
@@ -221,7 +221,7 @@ Now the user email is derived from user's full name:
 
 If we generate enough instances, it is likely that some user IDs will start to repeat. But although the IDs are the same the rest of the content is different.
 
-To demonstrate this behaviour let’s temporarily change our `user.id` expression from `#{id_number.valid}` to `#{options.option '100-00-0000','200-00-0000'}` - e.g. forcing it to choose between one of two fixed IDs:
+To demonstrate this behavior let’s temporarily change our `user.id` expression from `#{id_number.valid}` to `#{options.option '100-00-0000','200-00-0000'}` - e.g. forcing it to choose between one of two fixed IDs:
 
 ```json
 {"id": "100-00-0000", "sendAt": 1645518230007, "fullName": "Jina Ryan", "email": "jina.ryan@gmail.com", "age": 10}
