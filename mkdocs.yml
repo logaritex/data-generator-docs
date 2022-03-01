@@ -49,7 +49,7 @@ nav:
   - Data Generator:
     - Quick start: data-generator-getting-started.md
     - Usage: data-generator-usage.md
-    - Javadoc: 'https://s01.oss.sonatype.org/service/local/repositories/releases/archive/net/datafaker/datafaker/1.1.0/datafaker-1.1.0-javadoc.jar/!/index.html'
+#    - Javadoc: 
   - Stream Data Generator:
     - Quick start: stream-data-generator-getting-started.md
     # - Contributing: contributing.md
