@@ -5,7 +5,7 @@ As we develop data intensive applications we often need realistic datasets for t
 The `DataGenerator` library uses [Apache Avro](https://avro.apache.org/docs/current/) Schemas to generate random and yet realistic datasets, supporting `JSON`, `Avro` and `YAML`  output formats. 
 
 <figure markdown>
-  ![anomaly detection logo](assets/images/flow-diagram2.svg){ width="700"} 
+  ![anomaly detection logo](assets/images/flow-diagram4.svg){ width="700"} 
 </figure>
 
 The Avro Schemas can be annotated with [Faker](https://www.datafaker.net) and [SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions to adapt the generated content for a particular use-case or data model.
