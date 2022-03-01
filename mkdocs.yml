@@ -1,4 +1,4 @@
-site_name: Ralistic Datasets Fabric
+site_name:  Datasets Fabric
 
 theme:
   features:
@@ -50,11 +50,12 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Data Generator:
-    - Quick start: data-generator-getting-started.md
-    - Usage: data-generator-usage.md
+    - Quick start: data-generator/getting-started.md
+    - Usage: data-generator/usage.md
 #    - Javadoc: 
   - Stream Data Generator:
     - Quick start: stream-data-generator-getting-started.md
+  - Kubernetes Operator: kubernetes-operator/getting-started.md
     # - Contributing: contributing.md
     # - License: license.md
 #    - Changelog:

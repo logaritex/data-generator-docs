@@ -1,14 +1,19 @@
 # Data Generator
 
-As we develop data intensive applications we often need realistic datasets for testing them. Datasets that resemble the data as it appears in production. But finding enough real data or creating sufficient volume and variety manually is hard. 
+As we develop data intensive applications we often need realistic datasets for testing. 
+Datasets that resemble the data as it appears in production.
+But finding enough real data or creating sufficient volume and variety manually is hard.
 
-The `DataGenerator` library uses [Apache Avro](https://avro.apache.org/docs/current/) Schemas to generate random and yet realistic datasets, supporting `JSON`, `Avro` and `YAML`  output formats. 
+The `DataGenerator` library uses annotated Apache [Avro Schemas](https://avro.apache.org/docs/current/) to help you generate random and yet realistic datasets, 
+supporting `JSON`, `Avro` and `YAML` output formats.
 
 <figure markdown>
-  ![anomaly detection logo](assets/images/flow-diagram4.svg){ width="700"} 
+  ![anomaly detection logo](/assets/images/flow-diagram4.svg){ width="700"} 
 </figure>
 
-The Avro Schemas can be annotated with [Faker](https://www.datafaker.net) and [SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions to adapt the generated content for a particular use-case or data model.
+The Avro Schemas can be annotated with [Data Faker](https://www.datafaker.net) and Spring Expression Language ([SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions)) expressions to adapt the generated content to any particular use-case or data model.
+
+Allows, configuring dependencies between the fields of a single or different Schemas.
 
 ## Quick Start
 
@@ -87,14 +92,14 @@ the result should look like this:
 }
 ```
 
-Follow the [usage](./data-generator-usage.md) section for a step-by-step guidelines.
+Follow the [usage](../data-generator/usage.md) section for a step-by-step guidelines.
 
 ## Features
 
-* Datasets are generated from and validated against well-formed [Apache Avro Schemas](./data-generator-usage.md#avro-schema).
-* [Annotate schema fields](./data-generator-usage.md#feild-content-expressions) with [Data Faker](https://www.datafaker.net/usage/) and [Spring Expression Language SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions.
-* [Inter-field dependency](./data-generator-usage.md#inter-field-dependencies) - field values in a record can derive from or depend on each other.
-* [Instance uniqueness](./data-generator-usage.md#instance-uniqueness) - enforce instance uniqueness based on a selected dataset record field. 
-* [Shared dataset values](./data-generator-usage.md#shared-field-values) - allows sharing field values between different datasets.
+* Datasets are generated from and validated against well-formed [Apache Avro Schemas](./data-generator/usage.md#avro-schema).
+* [Annotate schema fields](../data-generator/usage.md#feild-content-expressions) with [Data Faker](https://www.datafaker.net/usage/) and [Spring Expression Language SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions.
+* [Inter-field dependency](../data-generator/usage.md#inter-field-dependencies) - field values in a record can derive from or depend on each other.
+* [Instance uniqueness](../data-generator/usage.md#instance-uniqueness) - enforce instance uniqueness based on a selected dataset record field. 
+* [Shared dataset values](../data-generator/usage.md#shared-field-values) - allows sharing field values between different datasets.
 
 For full documentation visit [logaritex/data-generator](https://logaritex.github.io/data-generator-docs).
