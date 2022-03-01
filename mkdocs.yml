@@ -1,17 +1,35 @@
-site_name: Ralistic Data Generator
+site_name: Ralistic Datasets Fabric
 
 theme:
   features:
     - navigation.tabs
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - content.code.annotate    
+
   name: material
-  logo: assets/icon-tanzu.svg
-  favicon: assets/icon-tanzu.svg
+  custom_dir: material
+
+  logo: assets/images/logaritex.998.svg
+  favicon: assets/images/logaritex.998.svg
+  
   palette:
-    primary: blue grey
-    accent: cyan
+  #   primary: blue grey
+  #   accent: cyan
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+#        primary: blue grey
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
-repo_url: https://github.com/logaritex/data-generator
-
+repo_url: https://github.com/logaritex
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -21,3 +39,35 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+# Page tree
+nav:
+  - Home: index.md
+  - Data Generator:
+    - Quick start: data-generator-getting-started.md
+    - Usage: data-generator-usage.md
+    - Javadoc: 'https://s01.oss.sonatype.org/service/local/repositories/releases/archive/net/datafaker/datafaker/1.1.0/datafaker-1.1.0-javadoc.jar/!/index.html'
+  - Stream Data Generator:
+    - Quick start: stream-data-generator-getting-started.md
+    # - Contributing: contributing.md
+    # - License: license.md
+#    - Changelog:
+#      - Changes: changelog/index.md
+#      - How to upgrade: upgrade.md
+#   - Releases:
+
+copyright: "Copyright © 2022 The Data Generator Authors"
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/christzolov
+    - icon: fontawesome/brands/github
+      link: https://github.com/logaritex
+      name: Dataset Fabric Community on Github
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/tzolov/
+      name: LinkedIn

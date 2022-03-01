@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 24 24" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<metadata>
+<vectornator:setting key="IsTimeLapseWatermarkDisabled" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting key="VNDimensionsVisible" value="true"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting key="WDGuidesVisible" value="true"/>
+<vectornator:setting key="WDIsolateActiveLayer" value="false"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDUnits" value="Pixels"/>
+</metadata>
+<defs/>
+<g id="Layer-1" vectornator:layerName="Layer 1">
+<path d="M17.164 3.88415C17.164 2.32827 18.4253 1.06698 19.9812 1.06698C21.5371 1.06698 22.7984 2.32827 22.7984 3.88415C22.7984 5.44004 21.5371 6.70133 19.9812 6.70133C18.4253 6.70133 17.164 5.44004 17.164 3.88415Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#414bb2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+<path d="M12.8547 17.44C12.8547 14.7344 15.0361 12.541 17.7269 12.541C20.4176 12.541 22.599 14.7344 22.599 17.44C22.599 20.1457 20.4176 22.3391 17.7269 22.3391C15.0361 22.3391 12.8547 20.1457 12.8547 17.44Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#2d9bf0" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.53471"/>
+<path d="M7.00519 10.5865C7.00519 9.38998 7.96979 8.42005 9.15968 8.42005C10.3496 8.42005 11.3142 9.38998 11.3142 10.5865C11.3142 11.7829 10.3496 12.7529 9.15968 12.7529C7.96979 12.7529 7.00519 11.7829 7.00519 10.5865Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#fac710" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M2.96882 16.6053C2.96882 15.755 3.6543 15.0657 4.49989 15.0657C5.34547 15.0657 6.03095 15.755 6.03095 16.6053C6.03095 17.4555 5.34547 18.1448 4.49989 18.1448C3.6543 18.1448 2.96882 17.4555 2.96882 16.6053Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#f24726" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M0.578378 8.71089C0.578378 7.56121 1.55689 6.62922 2.76395 6.62922C3.97101 6.62922 4.94953 7.56121 4.94953 8.71089C4.94953 9.86056 3.97101 10.7926 2.76395 10.7926C1.55689 10.7926 0.578378 9.86056 0.578378 8.71089Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#8fd14f" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+<path d="M14.9756 6.24445L16.1274 5.5458" fill="none" fill-rule="evenodd" opacity="1" stroke="#fac710" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.574223"/>
+<path d="M6.2001 14.5256L7.2709 13.0531" fill="none" fill-rule="evenodd" opacity="1" stroke="#f24726" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.7"/>
+<path d="M5.78098 9.6363L6.2757 9.79964" fill="none" fill-rule="evenodd" opacity="1" stroke="#8fd14f" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.574223"/>
+<path d="M13.5638 11.3688L13.8138 11.7239" fill="none" fill-rule="evenodd" opacity="1" stroke="#2d9bf0" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.1"/>
+<path d="M8.05142 7.74895C8.05142 6.07497 9.40098 4.71793 11.0658 4.71793C12.7305 4.71793 14.0801 6.07497 14.0801 7.74895C14.0801 9.42294 12.7305 10.78 11.0658 10.78C9.40098 10.78 8.05142 9.42294 8.05142 7.74895Z" fill="none" fill-rule="evenodd" opacity="1" stroke="#fac710" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+</g>
+</svg>

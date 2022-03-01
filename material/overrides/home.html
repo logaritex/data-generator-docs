@@ -1,0 +1,150 @@
+{% extends "overrides/main-styles.html" %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+{{ super() }}
+
+<!-- Hero for landing page -->
+<!-- 1st Section -->
+<section class="tx-container">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+
+            <!-- Hero image -->
+            <div class="tx-hero__image">
+                <img
+                        src="assets/images/datamesh2.png"
+                        alt=""
+                        width="600"
+                        draggable="true"
+                >
+            </div>
+
+            <!-- Hero content -->
+            <div class="tx-hero__content">
+                <h1  id="leverage-architecture">
+                    <img src="assets/images/logaritex.998.svg" alt="" width="40"draggable="true"></img>
+                    Data Generator
+                </h1>
+                <p>
+                    As we develop data intensive applications we often need realistic datasets for testing them. Datasets that resemble the data as it appears in production.
+                    <br/>   
+                    But finding enough real data or creating sufficient volume and variety manually is hard.
+                    <br/>
+                    The <strong>DataGenerator</strong> library uses 
+                    <strong>
+                        <a href="https://avro.apache.org/docs/current/">
+                            Apache Avro Schemas
+                        </a>
+                    </strong>    
+                    to generate random and yet realistic datasets, supporting <strong>JSON</strong>, <strong>Avro</strong> and <strong>YAML</strong> output formats. 
+                    <br/>
+                    The Avro Schemas can be annotated with 
+                    <a href="//www.datafaker.net">Faker</a> and <a href="https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions">SpEL</a> expressions to adapt the generated content for a particular use-case or data model.
+                    <br><br>
+
+                </p>
+
+            
+            
+                <a
+                        href="{{ page.next_page.url | url }}"
+                        title="{{ page.next_page.title | e }}"
+                        class="md-button md-button--primary"
+                >
+                    Get started
+                </a><br>
+
+                <a
+                    href="https://github.com/logaritex/data-generator"
+                    title="{{ lang.t('source.link.title') }}"
+                    class="md-button">
+                    Contribute on GitHub
+                    <img
+                        class = icon
+                        src="assets/images/icons/github-white.svg"
+                        alt=""
+                        width="24"
+                        draggable="false"
+                    >
+                </a><br>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2nd Section -->
+<!-- WHAT IS LEVERAGE? -->
+<section class="tx-container-2">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero__image-2" style="margin-top: 50px">
+            <img
+                    src="assets/images/DataMesh.png"
+                    alt=""
+                    width="800"
+                    draggable="false"
+                    align="left"
+            >
+        </div>
+        <div class="tx-hero">
+            <!-- Hero content -->
+            <div class="tx-hero__content-2">
+                <h1 id="what-is-leverage">Stream Data Generator
+                    <img src="assets/images/logaritex.998.svg" alt="" width="40"draggable="true"></img>
+                </h1><br>
+
+                <p>
+                    Built on top of the Data Generator, for scheduling continuous data streams from different schemas and sending it to different destinations such as message channels (Kafka, RabbitMQ), REST endpoints or JDBC databases.
+                </p><br>
+
+                <a
+                href="{{ page.next_page.url | url }}"
+                title="{{ page.next_page.title | e }}"
+                class="md-button md-button--primary"
+        >
+            Get started
+        </a><br>
+
+        <a
+            href="https://github.com/logaritex/data-generator"
+            title="{{ lang.t('source.link.title') }}"
+            class="md-button">
+            Contribute on GitHub
+            <img
+                class = icon
+                src="assets/images/icons/github-white.svg"
+                alt=""
+                width="24"
+                draggable="false"
+            >
+        </a><br>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="tx-footer">
+    <div class="md-grid md-typeset">
+        <div class="tx-hero">
+            <!-- Hero content -->
+            <div class="tx-hero__content-footer">
+                <p style="text-align:center;">
+                    © 2022
+                    <strong>
+                        <a href="https://logaritex.com">Logaritex, Inc</a>
+                    </strong>. All rights reserved
+
+                    || Contact us 📧
+                    <strong>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=datagenerator@logaritex.com&su=Leverage Contact
+                                &body=Dear Leverage Team,">datagenerator@logaritex.com</a>
+                    </strong>.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
