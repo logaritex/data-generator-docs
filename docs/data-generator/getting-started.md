@@ -96,7 +96,7 @@ Follow the [usage](../data-generator/usage.md) section for a step-by-step guidel
 
 ## Features
 
-* Datasets are generated from and validated against well-formed [Apache Avro Schemas](./data-generator/usage.md#avro-schema).
+* Datasets are generated from and validated against well-formed Apache [Avro Schemas](../data-generator/usage.md#avro-schema).
 * [Annotate schema fields](../data-generator/usage.md#feild-content-expressions) with [Data Faker](https://www.datafaker.net/usage/) and [Spring Expression Language SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions.
 * [Inter-field dependency](../data-generator/usage.md#inter-field-dependencies) - field values in a record can derive from or depend on each other.
 * [Instance uniqueness](../data-generator/usage.md#instance-uniqueness) - enforce instance uniqueness based on a selected dataset record field. 
