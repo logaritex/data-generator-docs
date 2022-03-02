@@ -315,7 +315,7 @@ DataUtil.print(new DataGenerator(
 ```
 
 !!! note
-    Mind that those generators can be run concurrently in parallel!
+    The `user` and `click` generators can safely be run concurrently in parallel threads!
 
 The user output would look something like this:
 
@@ -333,7 +333,7 @@ and the clicks:
 {"user_id": "008-06-4580", "page": 90337, "action": "product_detail", "user_agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"}
 ```
 
-Datasets look fine except for one flow! If you remember, the user-id in the Click dataset should match existing user IDs in the User dataset! But in the generated content the click#user_id is random and not related to the User dataset. This will make it very hard to use those datasets for clickstream analysis. The systems that process such clickstream data are likely to try to join the data by user ID and will fail to get any meaningful results.
+The output look fine except for one inconsistency! If you remember, the user Id in the `Click` dataset should match the existing user IDs in the `User` dataset! But in the generated output the later is random and not related to the former. This will make it very hard to use those datasets for clickstream analysis. The systems that process such clickstream data are likely to try to join the data by user ID and will fail to get any meaningful results.
 
 So can we share field values between instances of different datasets? 
 

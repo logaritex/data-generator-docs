@@ -2,6 +2,10 @@
 
 Built on top of the Data Generator, for scheduling continuous data streams from different schemas and sending it to different destinations such as message channels (Kafka, RabbitMQ), REST endpoints or JDBC databases. 
 
+<figure markdown>
+  ![anomaly detection logo](/assets/images/stream-data-gen-diagram1.svg){ width="700"} 
+</figure>
+
 The stream-data-generator  is still WIP, though being used to generate the test data for all streaming-runtime sample use cases.
 
 Here is sample configuration to configure two parallel treads to generate and send data to two Kafka topics: 
