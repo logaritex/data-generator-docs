@@ -93,7 +93,7 @@ you should see something like:
 Though valid and compliant with the schema, the content is neither realistic nor readable. 
 We can see in the result negative timestamps and age of 1128364621!
 
-#### Feild Content Expressions
+#### Field Content Expressions
 
 To improve on it we can add type hints to the schema’s [field doc](https://avro.apache.org/docs/1.11.0/spec.html#schema_record) attributes:
 
@@ -520,4 +520,4 @@ The updated result looks like this:
 ```
 
 !!! tip
-    if you use the Faker expression `#{company.name}` in ⅓ of the cases that run into internal Faker issues rendering null records. The save option is to use the Faker Java API vis the SpEL like this `[[#faker.company().name()]]` instead
+    if you use the Faker expression `#{company.name}` in ⅓ of the cases that run into internal Faker issues rendering null records. The save option is to use the Faker Java API vis the SpEL like this `[[#faker.company().name()]]` instead.

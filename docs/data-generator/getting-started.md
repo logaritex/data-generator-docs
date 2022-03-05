@@ -23,11 +23,11 @@ Add the `data-generator` dependency to your project:
 <dependency>
   <groupId>com.logaritex.data</groupId>
   <artifactId>data-generator</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3</version>
 </dependency>
 ```
 
-Craete an Avro Schema with data Faker and/or SpEL expressions to hint the desired field content:
+Create an Avro Schema with data Faker and/or SpEL expressions to hint the desired field content:
 
 ```yaml title="user.yaml"
 namespace: io.simple.clicksteram
@@ -97,7 +97,7 @@ Follow the [usage](../data-generator/usage.md) section for a step-by-step guidel
 ## Features
 
 * Datasets are generated from and validated against well-formed Apache [Avro Schemas](../data-generator/usage.md#avro-schema).
-* [Annotate schema fields](../data-generator/usage.md#feild-content-expressions) with [Data Faker](https://www.datafaker.net/usage/) and [Spring Expression Language SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions.
+* [Annotate schema fields](../data-generator/usage.md#field-content-expressions) with [Data Faker](https://www.datafaker.net/usage/) and [Spring Expression Language SpEL](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions) expressions.
 * [Inter-field dependency](../data-generator/usage.md#inter-field-dependencies) - field values in a record can derive from or depend on each other.
 * [Instance uniqueness](../data-generator/usage.md#instance-uniqueness) - enforce instance uniqueness based on a selected dataset record field. 
 * [Shared dataset values](../data-generator/usage.md#shared-field-values) - allows sharing field values between different datasets.
