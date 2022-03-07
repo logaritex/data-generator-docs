@@ -1,6 +1,6 @@
 # Usage
 
-Let’s assume that our data application needs to process datasets like this:
+Let’s assume that for our application we need to generate a `User` dataset like this:
 
 ```json title="user.json"
 {
@@ -9,7 +9,10 @@ Let’s assume that our data application needs to process datasets like this:
     "fullName": "Laurent Broudoux", 
     "email": "laurent@logaritex.com", 
     "age": 41 
-}
+},
+{
+  ...
+}, 
 ```
 
 How to generate more, random instances that resemble the same data model?
